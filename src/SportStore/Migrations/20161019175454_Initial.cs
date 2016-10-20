@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace SportStore.Migrations
+namespace SportsStore.Migrations
 {
     public partial class Initial : Migration
     {

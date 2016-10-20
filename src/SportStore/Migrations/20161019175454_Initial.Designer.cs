@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using SportStore.Models;
+using SportsStore.Models;
 
-namespace SportStore.Migrations
+namespace SportsStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20161019175454_Initial")]

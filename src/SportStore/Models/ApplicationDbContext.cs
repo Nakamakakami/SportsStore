@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using SportsStore.Models;
 
-namespace SportStore.Models
+namespace SportsStore.Models
 {
     public class ApplicationDbContext : DbContext
     {

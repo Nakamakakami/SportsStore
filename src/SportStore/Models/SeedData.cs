@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SportStore.Models
+namespace SportsStore.Models
 {
     public static class SeedData
     {
