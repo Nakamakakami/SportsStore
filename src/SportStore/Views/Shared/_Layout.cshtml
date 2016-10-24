@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.css" />
+    <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.min.css" />
     <title>SportsStore</title>
 </head>
 <body>
@@ -11,9 +11,9 @@
         <div class="navbar navbar-inverse" role="navigation">
             <a class="navbar-brand" href="#">SPORTS STORE</a>
         </div>
-        <div class="row panel">
+        <div class="row tab-pane">
             <div id="categories" class="col-xs-3">
-                Put something useful here later
+                @await Component.InvokeAsync("NavigationMenu")
             </div>
             <div class="col-xs-8">
                 @RenderBody()
